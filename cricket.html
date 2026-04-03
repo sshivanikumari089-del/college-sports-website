@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="student-page">
+
+    <h1 style="text-align:center;">🏏 Cricket Student Details</h1>
+
+    <div class="form-box">
+
+        <form onsubmit="return goToEvent()">
+
+            <input type="text" id="name" placeholder="Student Name">
+            <input type="text" id="class" placeholder="Class">
+            <input type="text" id="roll" placeholder="Roll No">
+
+            <!-- ✅ Button text add kiya -->
+            <button type="submit">Add Student</button>
+
+        </form>
+
+        <div class="back-arrow"
+      onclick="goGallery()">⬅ Back</div>
+
+        <ul id="studentList"></ul>
+
+    </div>
+
+    <!-- ✅ Script file LAST me -->
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+    
+    <button onclick="logout()" class="logout-btn">Logout</button>
+
+<h1 class="contact-title">🏆 College Sports Event</h1>
+
+<!-- ✅ EVENT DETAILS -->
+<div class="about-box">
+    <h2>Sports Day</h2>
+    <p>Date: 15 April</p>
+    <p>Venue: College Ground</p>
+    <p>Join us for exciting sports activities and competitions!</p>
+</div>
+
+<!-- ✅ GAMES LIST -->
+<div class="about-box">
+    <h2>Games Included</h2>
+    <p>🏏 Cricket</p>
+    <p>⚽ Football</p>
+    <p>🏸 Badminton</p>
+    <p>🏑 Hockey</p>
+    <p>🏐 Volleyball</p>
+    <p>🏃 Running</p>
+</div>
+
+<!-- ✅ FORM (IMPORTANT) -->
+<div class="form-box">
+
+    <h2>Register for Event</h2>
+
+    <form onsubmit="return sendMessage()">
+
+        <input type="text" id="cname" placeholder="Your Name">
+        <input type="email" id="cemail" placeholder="Your Email">
+        <textarea id="cmsg" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

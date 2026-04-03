@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About & Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+    <button onclick="goHome()"
+    class="home-btn">Home</button>
+
+<h1 class="contact-title">About & Contact</h1>
+
+<!-- ABOUT -->
+<div class="about-box">
+    <h2>About Us</h2>
+    <p>
+This website is designed to manage college sports activities and student records efficiently. 
+It allows users to explore different sports, view student details, and maintain organized data.
+
+Our goal is to create a simple and user-friendly platform where students can easily access 
+sports information and manage their participation.
+
+This project helps in improving digital management skills and provides a better experience 
+for handling college-level sports data.
+</p>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-box">
+
+    <h2>Contact Us</h2>
+
+    <form onsubmit="return sendMessage()">
+
+        <input type="text" id="cname" placeholder="Your Name">
+        <input type="email" id="cemail" placeholder="Your Email">
+        <textarea id="cmsg" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+    <p id="successMsg" style="color:lightgreen;"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

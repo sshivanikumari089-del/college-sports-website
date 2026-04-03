@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="gallery-page">
+
+    <h1>🏏 Football Photos</h1>
+
+    <div class="sports-container">
+
+        <div class="sport-card">
+            <img src="images/football1.jpg">
+        </div>
+
+        <div class="sport-card">
+            <img src="images/football2.jpg">
+        </div>
+
+        <div class="sport-card">
+            <img src="images/football3.jpg">
+        </div>
+
+    </div>
+  <!-- 🔙 SHINY BACK BUTTON -->
+<div style="text-align:center; margin:40px 0;">
+    <span onclick="goHome()" style="
+        font-size:30px;
+        cursor:pointer;
+        color:white;
+        display:inline-block;
+        padding:10px 20px;
+        border-radius:25px;
+        transition:0.3s;
+
+        /* ✨ Shine Effect */
+        text-shadow:
+            0 0 5px #fff,
+            0 0 10px #00c6ff,
+            0 0 20px #00c6ff;
+    "
+    onmouseover="this.style.transform='scale(1.1)'" 
+    onmouseout="this.style.transform='scale(1)'">
+        ⬅ Back
+    </span>
+</div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>
